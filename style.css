@@ -1,0 +1,23 @@
+.accordion{
+  /* 横幅500px 中央に揃う */
+  width: 600px;
+  margin: 0 auto;
+}
+
+.accordion-trigger{
+  /* 余計な空白が出ないようにしてpaddingを入れる。アンカーリンクがインライン要素なのでブロック要素に。 */
+  margin: 0;
+  padding: 10px;
+  display: block;
+  background-color:rgb(33, 145, 82);
+  color: #FFF;
+  /* 枠（上で宣言しているパディング10pxが効く） */
+  border-top: 1px solid #fff;
+}
+
+.accordion-contents{
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+
+}

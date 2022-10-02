@@ -1,0 +1,75 @@
+<!-- !マークを押下してタブボタンを押すことで、デフォルトの宣言文ができる。 -->
+
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <!-- 最小限３つ -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>クラスとインスタンス</title>
+    <!-- おまけ -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+
+  <body>
+
+    <div class="accordion" id="js-faq">
+			<p class="accordion-trigger">
+				Q1.人生に疲れたんですが、どうしたらいいですか？
+			</p>
+			<div class="accordion-contents">
+				A1.クソして寝ろ
+			</div>
+
+			<p class="accordion-trigger">
+				Q2.バナナはおやつに入りますか？
+			</p>
+			<div class="accordion-contents">
+				A2.グレーです。
+				より安全に事を進めるのであれば、バナナはカットして弁当箱に入れ、キャベツやトマトなどの野菜も同時に入れておくのです。<br>
+				そうすれば、最悪「これはサラダです」という言い訳が成立します。（フルーツサラダ）
+			</div>
+		</div>
+
+		<br><br><br>
+
+    <div class="accordion" id="js-accordion">
+      <a href="" class="accordion-trigger">
+        Q1.WEBプログラマーになるにはどうしたらいいですか。
+      </a>
+      <div class="accordion-contents">
+        A1.とにかくHTML,CSS,JSを書け。
+      </div>
+      <a href="" class="accordion-trigger">
+        Q2.勉強する時間がありません。どうやって時間を作ればいいですか。
+      </a>
+      <div class="accordion-contents">
+        A2.寝るな。寝ずに時間を作れ。
+      </div>
+
+    </div>
+
+
+    <br><br><br>
+
+    <!-- dl=definition list(定義するリスト)
+    dt=definition term(定義する言葉)
+    dd=definition description(定義の説明) -->
+
+    <dl class="accordion" id="js-accordion-mini">
+			<dt class="accordion-trigger">
+				Q1.エンジニアカフェの場所はどこにありますか。
+			</dt>
+			<dd class="accordion-contents">
+				A1.〒810-0001 福岡県福岡市中央区天神１丁目１５−３０
+			</dd>
+		</dl>
+
+
+    <!-- Java Scriptの読み込み -->
+    <script src="accordion.js"></script>
+    
+  </body>
+</html>
