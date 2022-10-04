@@ -35,7 +35,7 @@
 			const $target = e.currentTarget;
 
             //accordion-trrigerの次の要素＝accordion-contentsを取得
-			const $content = $target.nextEementSibling;
+			const $content = $target.nextElementSibling;
 			
 			if($content.style.display === 'block'){
 				$content.style.display = 'none';
